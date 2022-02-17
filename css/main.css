@@ -252,6 +252,7 @@ a {
   }
   .hero-content__button {
     padding: 10px;
+    white-space: nowrap;
   }
 }
 
