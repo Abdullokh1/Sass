@@ -151,7 +151,7 @@ a {
 }
 
 .hero {
-  background-image: url("../images/hero-img.png");
+  background-image: url("../images/hero-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -256,7 +256,7 @@ a {
 }
 
 .about {
-  background-image: url("../images/about-img.png");
+  background-image: url("../images/about-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
