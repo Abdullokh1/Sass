@@ -1,0 +1,93 @@
+.hero{
+  background-image: url('../images/hero-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+.hero-content{
+  padding-top: 160px;
+  text-align: center;
+}
+.hero-content__title {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 80px;
+}
+.hero-content__desc {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 28px;
+}
+.hero-content__button {
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+  padding: 15px 18px 20px 17px !important;
+  border: none;
+  display: inline-block;
+  @include decoration-none();
+  color: #000;
+  font-weight: 700;
+  position: relative;
+}
+.hero-content__button:hover{
+  background: #e6a23c;
+  color: #000;
+}
+.hero-span{
+  margin-left: 20px;
+}
+.hero-span::before{
+  content: "";
+  width: 1px;
+  height: 25px;
+  background-color: #1a1917;
+  opacity: 0.5;
+  display: inline-block;
+  position: absolute;
+  right: 83px;
+}
+.hero-content__story{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.hero-content__sub__text{
+  font-size: 12px;
+  font-weight: 700;
+}
+.bx-chevrons-down{
+  font-size: 30px;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-content__title{
+    font-size: 50px;
+  }
+  .hero-content{
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-content__title{
+    font-size: 35px;
+  }
+  .hero-content__desc{
+    font-size: 18px;
+  }
+  .hero-content__button{
+    padding: 10px;
+  }
+}
