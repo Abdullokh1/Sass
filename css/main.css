@@ -321,6 +321,9 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .about {
+    margin-top: -3px;
+  }
   .about__left__part {
     display: -webkit-box;
     display: -ms-flexbox;
