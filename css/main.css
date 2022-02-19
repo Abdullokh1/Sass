@@ -587,6 +587,7 @@ a {
   .features {
     background-image: url("../images/feature-img-3.jpg");
     height: 100vh;
+    padding-bottom: 100px;
   }
   .features__inner {
     -webkit-box-orient: vertical !important;
@@ -701,8 +702,7 @@ a {
     font-size: 35px;
   }
   .system {
-    padding-top: 190px;
-    padding-bottom: 150px;
+    padding-top: 200px;
     height: 100vh;
   }
   .system__inner {
@@ -803,7 +803,7 @@ a {
     width: 100%;
   }
   .quotes {
-    padding: 100px 0;
+    padding: 150px 0;
   }
   ul {
     padding: 0 0 !important;
